@@ -6,18 +6,11 @@ tags: #git, #til, #codenewbie, version-control
 cover_image: https://images.pexels.com/photos/962312/pexels-photo-962312.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
 ---
 
-Today I started working on a remote collab project (link below), and was trying to get a grasp on what had already been done. I needed some way of seeing the active branches, but my GIT knowledge was limited to just:
+Today I started working on a remote collab project and needed some way of seeing the active branches, but my GIT knowledge is rather limited to this day. I thought I'd try
+
 
 ```
-[local_repo](currentBranch)$ git branch
-* currentBranch
-  master
-```
-
-which only showed me my current branch and master. I then tried
-
-```
-git help branch
+$ git help branch
 ```
 
 but failed to make any sense out of it.
@@ -26,15 +19,26 @@ And so, DuckDuckGoing I went...
 
 > duckduckgo.com/?q=git+list+all+active+branches
 
-From the results, I came across several git commands I have never used before. Here's what I learned:
+From the results, I came across several git commands I have 
+never used before. 
 
-- ### git show-branch
-  - This is the description for the aboove command.
-    egegege
+Let's start with the basic stuff:
+### **git branch**
+
 
 ---
 
-### command 2
+### **git branch -r**
+This now looks obvious, since I do git add -a almost every time.
+
+---
+
+### **git branch -a**
+This now looks obvious, since I do git add -a almost every time.
+
+---
+
+### **git show-branch**
 
 This is the description for the aboove command
 
@@ -43,3 +47,12 @@ This is the description for the aboove command
 ### command 3
 
 This is the description for the aboove command
+
+
+
+And this is just the tip of the iceberg. You can find a whole lot more info over at [GIT's Documentation](https://git-scm.com/doc), and maybe write a post about it!
+
+#### Additional resources:
+
+* [git ready](http://gitready.com/intermediate/2009/02/13/list-remote-branches.html)
+* [interactive git cheatsheet](https://ndpsoftware.com/git-cheatsheet.html#loc=workspace;)
